@@ -1,0 +1,47 @@
+------------------------------------------------------SERVER--------------------------------
+1. in the server folder command is :- 
+
+npm init
+npm install express
+
+2. Create app.js file
+
+npm install -g nodemon
+----> check nodemon successfully working
+
+nodemon app
+
+----> if error then open powerShell as administrator and run command in powerShell
+
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+3. Setup GraphQl :- 
+npm install --save express-graphql
+npm install --save graphql
+
+4. npm install -g lodash --force //// not mandatory 
+
+5. npm cache clean command :- npm cache clean --force //// not mandatory only for info
+
+6. install mongoose
+
+npm install --save mongoose --force
+
+7. install cors for CROS ORIGIN Policy
+
+npm install cors --save --force
+
+---------------------------------------------------------CLIENT----------------------------------------
+7. Create react app 
+npx create-react-app client
+
+RUN react App
+
+npm start
+
+8. yarn add @apollo/client graphql
+
+
+
+
+
